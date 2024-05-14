@@ -1,0 +1,29 @@
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/thelovelace-modified.toml"
+    ]
+
+[shell]
+program = "nu"
+
+[env]
+TERM = "alacritty"
+
+[window]
+dimensions = { columns = 120, lines = 30  }
+position = { x = 0, y = 120}
+padding = { x = 10, y = 10}
+decorations = "none"
+opacity = 0.8
+dynamic_title = true
+decorations_theme_variant = "Dark"
+
+[font]
+size = 12
+normal.family = "JetBrainsMono Nerd Font"
+
+[colors]
+
+[cursor]
+style.blinking = "Always"
+style.shape = "Block"
